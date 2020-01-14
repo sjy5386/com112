@@ -38,5 +38,10 @@ namespace com112
                 return name;
             }
         }
+
+        public override string ToString()
+        {
+            return manufacturer + " " + name;
+        }
     }
 }

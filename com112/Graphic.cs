@@ -22,5 +22,10 @@ namespace com112
                 memory = (UInt64)managementObject["AdapterRAM"];
             }
         }
+
+        public override string ToString()
+        {
+            return name + " " + Convert.ByteToGiB(memory) + "GB";
+        }
     }
 }

@@ -31,5 +31,15 @@ namespace com112
         {
             return drives.Count;
         }
+
+        public override string ToString()
+        {
+            string str = "";
+            foreach (Drive drive in drives)
+            {
+                str += drive + "\n";
+            }
+            return str;
+        }
     }
 }

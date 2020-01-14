@@ -38,5 +38,10 @@ namespace com112
                 return speed;
             }
         }
+
+        public override string ToString()
+        {
+            return name + " @ " + speed + "GHz";
+        }
     }
 }

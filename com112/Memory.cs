@@ -33,5 +33,15 @@ namespace com112
             }
             return totalSize;
         }
+
+        public override string ToString()
+        {
+            string str = Convert.ByteToGiB(GetTotalSize()) + "GB\n";
+            foreach (MemoryCard memoryCard in memoryCards)
+            {
+                str += memoryCard + "\n";
+            }
+            return str;
+        }
     }
 }

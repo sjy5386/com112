@@ -32,5 +32,10 @@ namespace com112
                 return size;
             }
         }
+
+        public override string ToString()
+        {
+            return manufacturer + " " + Convert.ByteToGiB(size) + "GB";
+        }
     }
 }
