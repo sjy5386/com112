@@ -10,7 +10,7 @@ namespace com112
     {
         public static double MHzToGHz(UInt32 mhz)
         {
-            double ghz = mhz / 1000;
+            double ghz = mhz * 0.001;
             return ghz;
         }
 
