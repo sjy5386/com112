@@ -19,7 +19,7 @@ namespace com112
             foreach (ManagementObject managementObject in managementObjectCollection)
             {
                 name = (string)managementObject["name"];
-                speed = (UInt32)managementObject.Properties["CurrentClockSpeed"].Value / 1000;
+                speed = Convert.MHzToGHz((UInt32)managementObject.Properties["CurrentClockSpeed"].Value);
             }
         }
 
