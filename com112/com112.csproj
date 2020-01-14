@@ -71,6 +71,8 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Memory.cs" />
+    <Compile Include="MemoryCard.cs" />
     <Compile Include="Processor.cs" />
     <Compile Include="Properties\AssemblyInfo.cs">
       <SubType>Code</SubType>
