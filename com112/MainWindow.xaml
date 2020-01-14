@@ -5,8 +5,22 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:com112"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
+        Title="com112" Height="400" Width="600">
     <Grid>
-        
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="115*"/>
+            <ColumnDefinition Width="149*"/>
+        </Grid.ColumnDefinitions>
+        <TextBlock x:Name="processorTextBlock" HorizontalAlignment="Left" TextWrapping="Wrap" Text="CPU" VerticalAlignment="Top" Margin="10,10,0,0" FontWeight="Bold" FontSize="16"/>
+        <TextBlock x:Name="processorInformationTextBlock" HorizontalAlignment="Left" TextWrapping="Wrap" Text="???" VerticalAlignment="Top" FontSize="16" Margin="95,10,0,0"/>
+        <TextBlock x:Name="mainBoardTextBlock" HorizontalAlignment="Left" TextWrapping="Wrap" Text="메인보드" VerticalAlignment="Top" Margin="10,36.28,0,0" FontSize="16" FontWeight="Bold"/>
+        <TextBlock x:Name="mainBoardInformationTextBlock" HorizontalAlignment="Left" TextWrapping="Wrap" Text="???" VerticalAlignment="Top" FontSize="16" Margin="95,36.28,0,0"/>
+        <TextBlock x:Name="memoryTextBlock" HorizontalAlignment="Left" TextWrapping="Wrap" Text="RAM" VerticalAlignment="Top" Margin="10,62.56,0,0" FontSize="16" FontWeight="Bold"/>
+        <TextBlock x:Name="memoryInformationTextBlock" HorizontalAlignment="Left" TextWrapping="Wrap" Text="???" VerticalAlignment="Top" FontSize="16" Margin="95,62.56,0,0"/>
+        <TextBlock x:Name="graphicTextBlock" HorizontalAlignment="Left" TextWrapping="Wrap" Text="그래픽카드" VerticalAlignment="Top" Margin="10,193.96,0,0" FontSize="16" FontWeight="Bold"/>
+        <TextBlock x:Name="graphicInformationTextBlock" HorizontalAlignment="Left" TextWrapping="Wrap" Text="???" VerticalAlignment="Top" FontSize="16" Margin="95,193.96,0,0"/>
+        <TextBlock x:Name="storageTextBlock" HorizontalAlignment="Left" TextWrapping="Wrap" Text="저장 장치" VerticalAlignment="Top" FontSize="16" FontWeight="Bold" Margin="10,220.24,0,0"/>
+        <TextBlock x:Name="storageInformationTextBlock" HorizontalAlignment="Left" TextWrapping="Wrap" Text="???" VerticalAlignment="Top" FontSize="16" Margin="95,220.24,0,0"/>
+
     </Grid>
 </Window>
