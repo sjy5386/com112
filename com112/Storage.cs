@@ -19,6 +19,8 @@ namespace com112
             {
                 string name = (string)managementObject["Model"];
                 UInt64 size = (UInt64)managementObject["Size"];
+                Drive drive = new Drive(name, size);
+                drives.Add(drive);
             }
         }
 
