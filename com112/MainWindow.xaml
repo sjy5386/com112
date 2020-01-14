@@ -7,10 +7,6 @@
         mc:Ignorable="d"
         Title="com112" Height="400" Width="600">
     <Grid>
-        <Grid.ColumnDefinitions>
-            <ColumnDefinition Width="115*"/>
-            <ColumnDefinition Width="149*"/>
-        </Grid.ColumnDefinitions>
         <TextBlock x:Name="processorTextBlock" HorizontalAlignment="Left" TextWrapping="Wrap" Text="CPU" VerticalAlignment="Top" Margin="10,10,0,0" FontWeight="Bold" FontSize="16"/>
         <TextBlock x:Name="processorInformationTextBlock" HorizontalAlignment="Left" TextWrapping="Wrap" Text="???" VerticalAlignment="Top" FontSize="16" Margin="95,10,0,0"/>
         <TextBlock x:Name="mainBoardTextBlock" HorizontalAlignment="Left" TextWrapping="Wrap" Text="메인보드" VerticalAlignment="Top" Margin="10,36.28,0,0" FontSize="16" FontWeight="Bold"/>
