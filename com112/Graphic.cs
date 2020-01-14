@@ -18,8 +18,8 @@ namespace com112
             ManagementObjectCollection managementObjectCollection = managementClass.GetInstances();
             foreach (ManagementObject managementObject in managementObjectCollection)
             {
-                name = (string)managementObject["Name"];
-                memory = (UInt64)managementObject["AdapterRAM"];
+                name = System.Convert.ToString(managementObject["Name"]);
+                memory = System.Convert.ToUInt64(managementObject["AdapterRAM"]);
             }
         }
 
