@@ -23,6 +23,18 @@ namespace com112
         public MainWindow()
         {
             InitializeComponent();
+
+            Processor processor = new Processor();
+            MainBoard mainBoard = new MainBoard();
+            Memory memory = new Memory();
+            Graphic graphic = new Graphic();
+            Storage storage = new Storage();
+
+            processorInformationTextBlock.Text = processor.ToString();
+            mainBoardInformationTextBlock.Text = mainBoard.ToString();
+            memoryInformationTextBlock.Text = memory.ToString();
+            graphicInformationTextBlock.Text = graphic.ToString();
+            storageInformationTextBlock.Text = storage.ToString();
         }
     }
 }
